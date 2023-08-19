@@ -1,0 +1,20 @@
+@charset: "UTF-8";
+
+/*
+Outras medias queries
+*/
+@media screen and (min-width: 768px) {
+    .relogio {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 50%;
+        height: 50%;
+    }
+    .side-bar {
+        position: fixed;
+        top: 0%;
+        left: 0%;
+    }
+}
+    

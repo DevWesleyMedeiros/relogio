@@ -32,7 +32,7 @@ html, body {
 .relogio {
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 80vw;
     height: auto;
     justify-content: center;
     align-items: center;
@@ -50,4 +50,8 @@ html, body {
     text-align: center;
     margin: 20px;
 }
-
+.side-bar {
+    width: 20vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, #f9fd04df, #F9B208, #F98404);
+}
