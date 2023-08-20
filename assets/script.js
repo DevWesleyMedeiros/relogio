@@ -9,8 +9,8 @@ function updateClock() {
     seconds = time.getSeconds()
 
     h.innerHTML = `${hours}:00 HORAS`
-    m.innerHTML = `${minutes < 10 ? "0" + minutes : minutes} MINUTOS`
-    s.innerHTML = `${seconds < 10 ? "0" + seconds : seconds} MINUTOS`
+    m.innerHTML = `${minutes < 10 ? "0" + minutes : minutes}: MINUTOS`
+    s.innerHTML = `${seconds < 10 ? "0" + seconds : seconds}: SEGUNDOS`
 }
 
 setInterval(updateClock, 1000);
